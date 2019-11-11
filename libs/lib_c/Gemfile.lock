@@ -1,0 +1,23 @@
+PATH
+  remote: ..
+  specs:
+
+PATH
+  remote: .
+  specs:
+    lib_c (0.1.0)
+      hashr
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hashr (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lib_c!
+
+BUNDLED WITH
+   1.17.3

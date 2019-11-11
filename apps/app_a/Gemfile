@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+path "../../libs"
+
+gem "lib_a"

@@ -1,0 +1,25 @@
+PATH
+  remote: ../../libs
+  specs:
+    lib_a (0.1.0)
+      lib_b
+    lib_b (0.1.0)
+      awesome_print
+      lib_c
+    lib_c (0.1.0)
+      hashr
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    hashr (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lib_a
+
+BUNDLED WITH
+   1.17.3
